@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap');
+:root {
+    --main-bg-color: #1c79ca;
+  }
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;   
+}
+.logo img{
+     padding: 0 25px;
+     height: 78px;
+}
+nav ul li{
+    padding: 0 23px;
+    list-style: none;
+    text-decoration: none;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li a{
+    color:white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.search{
+   display: flex;
+   align-items: center;
+}
+.search input{
+    height: 27px;
+    width: 30vw;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+.search btn{
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 900px;
+}
+.cart{
+   max-width:87vw;
+  margin: auto;
+  
+}
+.carts{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.cart-iteams{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 8px;
+}
+.cart h2{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+   min-height:75vh;
+}
+.slider{
+   margin: 12px auto;
+   width: 80vw;
+   overflow: hidden;
+}
+footer{
+background-color:var(--main-bg-color);
+ color: white;
+ height: 10vh;
+ font-family: 'Open Sans', sans-serif;
+}
